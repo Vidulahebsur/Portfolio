@@ -1,0 +1,18 @@
+.img{
+    width: 7%;
+    height: 7%;
+    margin-right: 90%;
+    margin-top: 2%;
+
+}
+
+nav{
+    backface-visibility: hidden;
+    transform: translateZ(0px);
+    
+}
+
+.main{
+    font-size: large;
+    color: white;
+}

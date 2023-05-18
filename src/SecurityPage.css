@@ -1,0 +1,63 @@
+.add{
+    background-color: black;
+    width: 20%;
+    height: 20%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-size: larger;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 6%;
+}
+
+.add:hover{
+    background-color: white;
+    color: black;
+}
+
+.container1{
+    margin-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.container2{
+    margin-top: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+.ba{
+    width: 10%;
+    height: 20%;
+    background-color:black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-top: 15%;
+    /* margin-left: 60%; */
+}
+
+.ba:hover{
+    background-color: white;
+    color: black;
+}
+
+.ne{
+    width: 10%;
+    height: 20%;
+    background-color: black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.ne:hover{
+    background-color: white;
+    color: black;
+}
