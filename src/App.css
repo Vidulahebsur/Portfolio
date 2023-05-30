@@ -12,14 +12,14 @@
 
   bottom: 0;
 
-  z-index: -1;
+  /* z-index: -1; */
 
   display: block;
-
+  /* font-size: 100%; */
   text-align: center;
 
-  background-image: url(./Images/background.png);
-
+  /* background-image: url(./Images/background.png); */
+background-color: black;
   background-size: 100%;
  color: white;
 

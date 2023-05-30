@@ -25,16 +25,26 @@ import Addsecurities from './Addsecurities';
 import PortfolioAdd from './PortfolioAdd';
 import Theme from './Theme';
 import AddSecurity from './AddSecurity';
+import Addsec from './Addsec';
+import Addtheme from './Addtheme';
+import Addassets from './Addassets';
+import PortfolioTheme from './PortfolioTheme';
+
 
 function App() {
   return (
     <div className="App" >
-      
+      <>
+      <Navbar/>
+      </>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/home' element={<Home/>}></Route>
         <Route path='/portpage' element={<Portpage/>}></Route>
         <Route path='/theme' element={<Theme/>}></Route>
+        <Route path='/addsec' element={<Addsec/>}></Route>
+        <Route path='/addtheme' element={<Addtheme/>}></Route>
+        <Route path='/addasset' element={<Addassets/>}></Route>
         <Route path='/addsecurity' element={<AddSecurity/>}></Route>
         {/* <Route path='/Isin' element={<Isin/>}></Route> */}
         {/* <Route path='/ResultPage' element={<ResultPage/>}></Route> */}
@@ -54,6 +64,8 @@ function App() {
         <Route path='/landing' element={<Landing/>}></Route>
         <Route path='/navbar' element={<Navbar/>}></Route>
         <Route path='/desktop' element={<Desktop/>}></Route>
+        <Route path='/addsec/:portfolioName' element={<Addsec/>}></Route>
+        <Route path='portfoliotheme' element={<PortfolioTheme/>}></Route>
         {/* <Route path='/portfolioComposition' element={<PortfolioComposition/>}></Route>
         <Route path='/portfolioMain' element={<PortfolioMain/>}></Route> */}
       </Routes>

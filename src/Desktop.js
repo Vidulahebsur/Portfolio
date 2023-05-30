@@ -9,9 +9,7 @@ function Desktop(){
     const navigate= useNavigate();
     return(
         <div>
-            <>
-            <BasicExample/>
-            </>
+
             <div>
                 <img src={portfolio} className="name"></img>
             </div>
@@ -20,7 +18,7 @@ function Desktop(){
                 <p>Portfolio management is the art and science of selecting and overseeing a group of investments that meet the long-term financial objectives and risk tolerance of a client, a company, or an institution.</p>
             </div>
             <div className="buttons">
-                <button  className="createbutton" onClick={()=>navigate('/Landing')}>Create Portfolio</button>
+            <button  className="createbutton" onClick={()=>navigate('/landing')}>Create Portfolio</button>
             </div>
         </div>
     );

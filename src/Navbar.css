@@ -1,18 +1,23 @@
-.img{
+.navlogo{
     width: 7%;
-    height: 7%;
-    margin-right: 90%;
+    height:7%;
+    margin-right: 85%;
     margin-top: 2%;
-
 }
-
-nav{
-    backface-visibility: hidden;
-    transform: translateZ(0px);
-    
-}
-
-.main{
-    font-size: large;
+a{
     color: white;
+}
+.navcomp{
+    margin-left: 12%;
+    margin-top: -5%;
+    font-size: 18px;
+}
+.dropdown-menu{
+    font-size: 16px;
+}
+
+.line{
+    color: white;
+    width: 100%;
+    margin-top: 6%;
 }

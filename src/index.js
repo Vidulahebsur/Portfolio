@@ -5,6 +5,7 @@ import App from './App';
 // import reportWebVitals from './reportWebVitals';
  import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Back from './Back';
+// import "bootswatch/dist/[theme]/bootstrap.min.css";
  //import 'bootstrap/dist/css/bootstrap.min.css'
 // import Isin from './Isin';
 // import Navbar from './Navbar';
