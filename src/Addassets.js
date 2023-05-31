@@ -67,16 +67,16 @@ function Addassets() {
 <div>
     <br/>
 <div className="containera">
-                <div class="headtheme" style={{"font-size":"170%"}}>ADD ASSET</div>
+                <div class="headtheme" style={{"font-size":"190%"}}>ADD ASSET</div>
                 <form action="#">
-                    <div class="portfolio-details">
+                    <div class="portfolio-details" style={{marginTop:"-5%"}}>
                         <div class="input-box">
-                            <span class="details">Asset ID</span>
-                            <input type="text" placeholder="Enter the asset id"  required
+                            <span class="details" style={{color:"chartreuse",fontWeight:"bold"}}>Asset ID</span>
+                            <input type="text" style={{color:"black"}} placeholder="Enter the asset id"  required
                             value={assetId} onChange={(event)=>setAssetId(event.target.value)}></input>
                         </div>
                         <div class="input-box">
-                            <span class="details">Risk</span>
+                            <span class="details" style={{color:"chartreuse",fontWeight:"bold"}}>Risk</span>
                             <select className="selections" 
                              value={risk} onChange={(event)=>setRisk(event.target.value)}>
                                                  <option>-------Choose Risk-------</option>
@@ -90,12 +90,12 @@ function Addassets() {
                             
                         </div>
                         <div class="input-box">
-                            <span class="details">Asset Class</span>
-                            <input type="text" placeholder="Enter asset class" 
+                            <span class="details" style={{color:"chartreuse",fontWeight:"bold"}}>Asset Class</span>
+                            <input type="text" style={{color:"black"}} placeholder="Enter asset class" 
                             value={assetClasses} onChange={(event)=>setAssetClass(event.target.value)}></input>
                         </div>
                         <div class="input-box">
-                            <span class="details">Returns</span>
+                            <span class="details" style={{color:"chartreuse",fontWeight:"bold"}}>Returns</span>
                             <select className="selections" 
                             value={returns} onChange={(event)=>setReturns(event.target.value)}>
                                                  <option>-----Choose Returns-----</option>
@@ -108,14 +108,14 @@ function Addassets() {
                                            </select><br /> <br />
                         </div>
                         <div class="input-box">
-                            <span class="details">Sub-Asset Class</span>
-                            <input type="text" placeholder="Enter the sub-asset class" 
+                            <span class="details" style={{color:"chartreuse",fontWeight:"bold"}}>Sub-Asset Class</span>
+                            <input type="text" style={{color:"black"}}  placeholder="Enter the sub-asset class" 
                             value={subAssetClass} onChange={(event)=>setSubAssetClasss(event.target.value)}
                                              ></input>
                         </div>
                         
                         <div class="input-box">
-                            <span class="details">Investment Horizon</span>
+                            <span class="details" style={{color:"chartreuse",fontWeight:"bold"}}>Investment Horizon</span>
                             <select className="selections" 
                             value={investmentHorizon} onChange={(event)=>setInvestmentHorizon(event.target.value)}>
                                                  <option>----Select your choice----</option>
@@ -129,7 +129,7 @@ function Addassets() {
                                            </select><br /> <br />
                         </div>
                         <div class="input-box">
-                            <span class="details">Liquidity</span>
+                            <span class="details" style={{color:"chartreuse",fontWeight:"bold"}}>Liquidity</span>
                             <select className="selections" style={{width: "78%","height":"50%"}} 
                             value={liquidity} onChange={(event)=>setLiquidity(event.target.value)} >
                                                  <option>----Choose liquidity----</option>

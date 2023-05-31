@@ -46,3 +46,26 @@ label {
     width: 100rem;
 }
 
+
+
+
+
+.assetdiv{
+    margin-left: -5%;
+    
+
+}
+
+.labelasset{
+    font-size: 22px;
+    font-weight: bold;
+    color: chartreuse;
+}
+
+.placeholder{
+    margin-left: 5%;
+}
+
+.tablediv{
+    margin-top: 12%;
+}

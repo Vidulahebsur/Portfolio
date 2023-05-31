@@ -9,16 +9,16 @@ function Navbar() {
       </div>
       <div className="navcomp">
         <ui class="nav navbar-nav">
-          <li><a href="/portfoliotheme">Home</a></li>
-          <li><a href="/desktop">Portfolio</a></li>
+          <li><a href="/portfoliotheme" style={{fontSize:"25px",fontWeight:"bold"}}>Home</a></li>
+          <li><a href="/desktop" style={{fontSize:"25px",fontWeight:"bold"}}>Portfolio</a></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style={{"color":"white"}}>Admin
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" style={{"color":"white",fontSize:"25px",fontWeight:"bold"}}>Admin
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu" style={{"backgroundColor":"white","color":"black"}}>
-              <li><a href="/#">Security Master</a></li>
-              <li><a href="/addasset">Add Asset</a></li>
-              <li><a href="/addtheme">Add Theme</a></li>
+              <li><a href="/#" style={{fontSize:"18px"}}>Security Master</a></li>
+              <li><a href="/addasset" style={{fontSize:"18px"}}>Add Asset</a></li>
+              <li><a href="/addtheme" style={{fontSize:"18px"}}>Add Theme</a></li>
             </ul>
           </li>
         </ui>

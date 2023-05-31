@@ -96,7 +96,7 @@ body{
     border-radius: 5px;
     color: white;
     margin-left: 27%;
-    margin-top: -1%;
+    margin-top: -2%;
   }
   
   .containera.title{
@@ -216,5 +216,5 @@ body{
 .ht{
     color: white;
     font-size: xx-large;
-    margin-top: 3%;
+    margin-top: 2%;
 }

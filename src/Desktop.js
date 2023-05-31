@@ -8,7 +8,7 @@ function Desktop(){
 
     const navigate= useNavigate();
     return(
-        <div>
+        <div className="Desktop-page">
 
             <div>
                 <img src={portfolio} className="name"></img>

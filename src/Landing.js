@@ -188,7 +188,12 @@ const Landing = () => {
                         </tbody>
                     </table>
                 </div> */}
-                <button className="back" onClick={() => navigate('/desktop')}>Back</button>
+                {/* <button className="back" onClick={() => navigate('/desktop')}>Back</button> */}
+                <div class="col-md-2">
+                      
+                      <input type="submit" class="btn btn-success btn-send  pt-2 btn-block" value="Back" style={{marginLeft:"278%",marginTop:"100%"}} onClick={() => navigate('/desktop')} />
+                  
+              </div>
             </div>
         </div>
     );

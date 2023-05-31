@@ -1,10 +1,11 @@
 import React from 'react'
 import axios from 'axios'
 import PortfolioHeader from './PortfolioHeader';
-const FETCH_URL="http://localhost:1215/themeAsset/fetchThemeAsset"
-const BASE_URL="http://localhost:1215/themeAsset/addThemeAsset"
-const GET_URL="http://localhost:1215/asset/fetchAsset"
-const theme_url="http://localhost:1215/asset/fetchAssetByThemeName"
+const FETCH_URL="http://localhost:1243/themeAsset/fetchThemeAsset"
+const BASE_URL="http://localhost:1243/themeAsset/addThemeAsset"
+const GET_URL="http://localhost:1243/asset/fetchAsset"
+const theme_url="http://localhost:1243/asset/fetchAssetByThemeName"
+const fetchTheme="http://localhost:1243/themeAsset/fetchThemeAsset"
 class ThemeAssetService{
     
     addThemeAsset(themeAsset,assetClass)
@@ -17,6 +18,9 @@ class ThemeAssetService{
     }
     getAll(){
         return axios.get(GET_URL);
+    }
+    fetchTheme(){
+        return axios.get(fetchTheme);
     }
 
 }
